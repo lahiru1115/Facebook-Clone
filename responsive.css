@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  .header .header-left .search {
+    width: 45px;
+    padding-inline: 0;
+  }
+
+  .header .header-left .search input {
+    display: none;
+  }
+
+  .header .header-center {
+    display: none;
+  }
+
+  .header .header-right .header-right-profile {
+    display: none;
+  }
+
+  .header .header-right .header-right-row img:nth-child(1) {
+    display: none;
+  }
+
+  .content .nav,
+  .content .contacts {
+    display: none;
+  }
+
+  .content .feed {
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .content .feed .story-list,
+  .content .feed .add-post,
+  .content .feed .post {
+    margin-inline: 0.75rem;
+  }
+
+  .content .feed .story-list {
+    gap: 0.5rem;
+  }
+
+  .content .feed .add-post {
+    padding: 0.75rem;
+  }
+
+  .content .feed .add-post .add-post-top {
+    gap: 0.5rem;
+  }
+
+  .content .feed .add-post .add-post-bottom .add-post-button:nth-child(3) {
+    display: none;
+  }
+}
